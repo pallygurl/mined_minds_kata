@@ -2,8 +2,10 @@
 #number is variable
   	if number == 3
   	"Mined"
-  else 
-  	number
+  elsif number == 5
+  	"Minds"
+  else
+   	number
   end
 
  	
