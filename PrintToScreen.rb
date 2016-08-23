@@ -6,11 +6,11 @@
 	if x % 3 == 0
 		puts "Mined"
 
-#replace 5 with Minds	
-	elsif x == 5
+#when a number is exactly divisible by 5, replace with  Minds	
+	elsif x % 5 == 0
 		puts "Minds"
 
-#when a number is not exactly divisible by 3, display number	
+#when a number is not exactly divisible by 3 or 5, display number	
 	else
 	puts x	
 	end
