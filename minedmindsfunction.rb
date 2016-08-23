@@ -1,12 +1,16 @@
+ #this will output numbers 1-100 
+ 
  x = 1
 100. times do
-	if x % 3 == 0 && x % 5 == 0
+	if x % 15 == 0
 		puts "Mined Minds"
 
-#when a number is exactly divisible by 5 replace with Minds
+#when a number is exactly divisible by 3 replace with Mined
 	
 	elsif x % 3 == 0
 		puts "Mined"
+#when a number is exactly divisible by 5 replace with Mined
+
 	elsif x % 5 == 0
 		puts "Minds"
 
@@ -17,3 +21,7 @@
 	
 	x = x + 1
 end
+
+
+
+
