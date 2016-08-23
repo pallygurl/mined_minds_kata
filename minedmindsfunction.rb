@@ -1,3 +1,5 @@
  def mined_minds(number)
- 	1
+#use number on the following line because it is variable
+ 	number
  end
+
