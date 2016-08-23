@@ -31,4 +31,5 @@ def test_5_returns_Minds
 def test_3_times_5_returns_Mined_Minds
 	assert_equal("Mined Minds", mined_minds(15))
 	end
+	
 end

@@ -1,6 +1,6 @@
  def mined_minds(number)
 #number is variable
-  	if number == 15
+  	if number % 3 == 0 && number % 5 == 0
   		"Mined Minds"
   	elsif number == 3
   	"Mined"
@@ -14,7 +14,7 @@
  #def mined_minds (multiply)	
  #	if number % 3 == 0 && x % 5 == 0
 #	"Mined Minds"
- #  else
- #  	number
+ # else
+  #	number
    
 end
