@@ -1,5 +1,11 @@
  def mined_minds(number)
-#use number on the following line because it is variable
- 	number
- end
+#number is variable
+  	if number == 3
+  	"Mined"
+  else 
+  	number
+  end
+
+ 	
+end
 
